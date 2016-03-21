@@ -83,6 +83,14 @@ def clvhealth_pbm_install():
 
     install_update_module('clv_professional', update, True)
 
+    install_update_module('clv_medicament', update, True)
+
+    install_update_module('clv_medicament_list', update, True)
+
+    install_update_module('clv_medicament_group', update, True)
+
+    install_update_module('l10n_br_clv_abcfarma_medicament', update, True)
+
 
 def secondsToStr(t):
 
