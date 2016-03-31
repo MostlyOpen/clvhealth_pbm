@@ -75,6 +75,8 @@ def clvhealth_pbm_install():
         proxy = client.model('ir.module.module')
         proxy.update_list()
 
+    install_update_module('clv_web', update)
+
     install_update_module('clv_base', update, True)
 
     install_update_module('clv_tag', update, True)
